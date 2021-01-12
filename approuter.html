@@ -20,7 +20,7 @@
       // 路径格式为 'aa/bb/cc'， 对应 manifest.json 中 router 下 page 的 path 字段。
       // 透传参数类型为对象，快应用页面可通过 public 属性获取
       appRouter('webview.test',
-                   '',
+                   '/?a=1234&b=5678',
                    { a: 2, b: 'efg' })
 
       // 需要用户确认的调用方式，需传入四个参数
